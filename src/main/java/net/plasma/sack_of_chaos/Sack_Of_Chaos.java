@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.plasma.sack_of_chaos.Block.ModBlocks;
 import net.plasma.sack_of_chaos.Item.ModCreativeModeTabs;
 import net.plasma.sack_of_chaos.Item.ModItems;
 import org.slf4j.Logger;
@@ -31,6 +32,8 @@ public class Sack_Of_Chaos {
 
         ModItems.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -45,8 +48,7 @@ public class Sack_Of_Chaos {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BISMUTH_INGOT);
-            event.accept(ModItems.RAW_BISMUTH);
+
         }
 
     }
