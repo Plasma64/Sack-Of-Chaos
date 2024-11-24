@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sack_of_chaos:bismuth_ingot"
+    }
+  },
+  "result": {
+    "item": "sack_of_chaos:bismuth_block"
+  }
+}

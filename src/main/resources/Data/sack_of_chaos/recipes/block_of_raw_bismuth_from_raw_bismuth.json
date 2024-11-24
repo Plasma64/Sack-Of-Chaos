@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sack_of_chaos:raw_bismuth"
+    }
+  },
+  "result": {
+    "item": "sack_of_chaos:block_of_raw_bismuth"
+  }
+}

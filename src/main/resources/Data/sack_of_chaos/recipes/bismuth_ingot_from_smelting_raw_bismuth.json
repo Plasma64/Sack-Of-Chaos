@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "bismuth_ingot",
+  "ingredient": {
+    "item": "sack_of_chaos:raw_bismuth"
+  },
+  "result": "sack_of_chaos:bismuth_ingot"
+}

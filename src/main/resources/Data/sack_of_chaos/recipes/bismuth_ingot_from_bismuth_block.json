@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sack_of_chaos:bismuth_block"
+    }
+  ],
+  "result": {
+    "item": "sack_of_chaos:bismuth_ingot",
+    "count": 9
+  }
+}
