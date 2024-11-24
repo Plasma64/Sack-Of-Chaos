@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.BLOCK_OF_RAW_BISMUTH.get());
                         pOutput.accept(ModBlocks.BISMUTH_BLOCK.get());
+                        pOutput.accept(ModBlocks.BISMUTH_ORE.get());
                     })
                     .build());
 
