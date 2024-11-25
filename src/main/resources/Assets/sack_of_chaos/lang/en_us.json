@@ -1,11 +1,13 @@
 {
   "item.sack_of_chaos.bismuth_ingot": "Bismuth Ingot",
   "item.sack_of_chaos.raw_bismuth": "Raw Bismuth",
+  "item.sack_of_chaos.dashroom": "Dashroom",
   "item.sack_of_chaos.sack_of_chaos_tab_icon": "Mod Tab Icon",
 
   "block.sack_of_chaos.block_of_raw_bismuth": "Block Of Raw Bismuth",
   "block.sack_of_chaos.bismuth_block": "Bismuth Block",
   "block.sack_of_chaos.bismuth_ore": "Bismuth Ore",
+  "block.sack_of_chaos.maroonstone": "Maroonstone",
 
   "creativetab.sack_of_chaos_tab": "Sack Of Chaos"
 }
