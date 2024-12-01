@@ -18,7 +18,11 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SACK_OF_CHAOS_TAB_ICON = ITEMS.register("sack_of_chaos_tab_icon",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> Dashroom = ITEMS.register("dashroom",
+
+    public static final RegistryObject<Item> TESTFOOD = ITEMS.register("testfood",
+            () -> new Item(new Item.Properties().food(ModFoods.TESTFOOD)));
+
+    public static final RegistryObject<Item> DASHROOM = ITEMS.register("dashroom",
             () -> new DashroomItem(new Item.Properties().durability(50)));
 
     public static void register(IEventBus eventBus) {

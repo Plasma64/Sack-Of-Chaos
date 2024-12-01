@@ -1,6 +1,5 @@
 package net.plasma.sack_of_chaos.Block;
 
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -22,21 +21,15 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Sack_Of_Chaos.MOD_ID);
 
-    public static final SoundType MAROONSTONE_SOUNDS = new SoundType(1.0f, 0.5F,
-            SoundEvents.LANTERN_STEP,
-            SoundEvents.LANTERN_BREAK,
-            SoundEvents.LANTERN_HIT,
-            SoundEvents.LANTERN_PLACE,
-            SoundEvents.LANTERN_FALL);
-
-
     public static final RegistryObject<Block>  BLOCK_OF_RAW_BISMUTH = registerBlock("block_of_raw_bismuth",
-    () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).sound(SoundType.AMETHYST)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).sound(SoundType.AMETHYST)));
     public static final RegistryObject<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
-    public static final RegistryObject<Block>  MAROONSTONE = registerBlock("maroonstone",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE).sound(MAROONSTONE_SOUNDS)
-                    .strength(6f)));
+
+    public static final RegistryObject<Block> MAROONSTONE = registerBlock("maroonstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)
+                    .sound(SoundType.LANTERN)
+                    .strength(3f)));
 
     public static final RegistryObject<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

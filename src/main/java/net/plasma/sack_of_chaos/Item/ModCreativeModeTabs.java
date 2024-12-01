@@ -20,12 +20,14 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RAW_BISMUTH.get());
                         pOutput.accept(ModItems.BISMUTH_INGOT.get());
-                        pOutput.accept(ModItems.Dashroom.get());
+                        pOutput.accept(ModItems.DASHROOM.get());
 
                         pOutput.accept(ModBlocks.BLOCK_OF_RAW_BISMUTH.get());
                         pOutput.accept(ModBlocks.BISMUTH_BLOCK.get());
                         pOutput.accept(ModBlocks.BISMUTH_ORE.get());
+
                         pOutput.accept(ModBlocks.MAROONSTONE.get());
+
                     })
                     .build());
 

@@ -30,9 +30,9 @@ public class Sack_Of_Chaos {
 
         ModCreativeModeTabs.register(modEventBus);
 
-        ModItems.register(modEventBus);
-
         ModBlocks.register(modEventBus);
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
