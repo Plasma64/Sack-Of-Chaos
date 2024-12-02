@@ -29,7 +29,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> MAROONSTONE = registerBlock("maroonstone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)
                     .sound(SoundType.LANTERN)
-                    .strength(3f)));
+                    .strength(3f, 6f)));
+    public static final RegistryObject<Block> BLOCK_OF_CONDENSED_COAL = registerBlock("block_of_condensed_coal",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
 
     public static final RegistryObject<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

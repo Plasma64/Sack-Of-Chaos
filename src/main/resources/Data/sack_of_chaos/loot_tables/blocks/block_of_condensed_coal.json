@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sack_of_chaos:maroonstone_item"
+          "name": "sack_of_chaos:block_of_condensed_coal_item"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "sack_of_chaos:blocks/maroonstone"
+  "random_sequence": "sack_of_chaos:blocks/block_of_condensed_coal"
 }

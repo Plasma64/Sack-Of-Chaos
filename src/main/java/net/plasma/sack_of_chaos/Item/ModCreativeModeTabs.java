@@ -22,11 +22,16 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BISMUTH_INGOT.get());
                         pOutput.accept(ModItems.DASHROOM.get());
 
+                        pOutput.accept(ModItems.LEMON.get());
+                        pOutput.accept(ModItems.ORANGE.get());
+                        pOutput.accept(ModItems.SHADE_BERRY.get());
+
                         pOutput.accept(ModBlocks.BLOCK_OF_RAW_BISMUTH.get());
                         pOutput.accept(ModBlocks.BISMUTH_BLOCK.get());
                         pOutput.accept(ModBlocks.BISMUTH_ORE.get());
 
                         pOutput.accept(ModBlocks.MAROONSTONE.get());
+                        pOutput.accept(ModBlocks.BLOCK_OF_CONDENSED_COAL.get());
 
                     })
                     .build());
