@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "sack_of_chaos:block/maroonstone_top_bottom",
+    "side": "sack_of_chaos:block/maroonstone",
+    "top": "sack_of_chaos:block/maroonstone_top_bottom"
+  }
+}

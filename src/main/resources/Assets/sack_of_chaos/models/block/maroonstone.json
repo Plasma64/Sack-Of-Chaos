@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "sack_of_chaos:block/maroonstone"
+    "side": "sack_of_chaos:block/maroonstone",
+    "end": "sack_of_chaos:block/maroonstone_top_bottom"
   }
 }

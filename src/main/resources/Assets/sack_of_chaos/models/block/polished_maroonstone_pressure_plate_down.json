@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "sack_of_chaos:block/polished_maroonstone"
+  }
+}

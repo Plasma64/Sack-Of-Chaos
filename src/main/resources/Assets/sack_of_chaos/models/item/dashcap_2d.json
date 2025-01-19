@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "sack_of_chaos:item/dashcap_2d"
+  }
+}

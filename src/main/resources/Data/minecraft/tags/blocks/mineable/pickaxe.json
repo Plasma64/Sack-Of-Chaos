@@ -4,6 +4,17 @@
     "sack_of_chaos:block_of_raw_bismuth",
     "sack_of_chaos:bismuth_ore",
     "sack_of_chaos:maroonstone",
+    "sack_of_chaos:maroonstone_slab",
+    "sack_of_chaos:maroonstone_stairs",
+    "sack_of_chaos:maroonstone_wall",
+    "sack_of_chaos:polished_maroonstone",
+    "sack_of_chaos:polished_maroonstone_bricks",
+    "sack_of_chaos:cracked_polished_maroonstone_bricks",
+    "sack_of_chaos:polished_maroonstone_slab",
+    "sack_of_chaos:polished_maroonstone_stairs",
+    "sack_of_chaos:polished_maroonstone_wall",
+    "sack_of_chaos:polished_maroonstone_button",
+    "sack_of_chaos:polished_maroonstone_pressure_plate",
     "sack_of_chaos:block_of_condensed_coal"
 
   ]

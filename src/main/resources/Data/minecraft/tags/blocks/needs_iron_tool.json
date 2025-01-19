@@ -2,9 +2,7 @@
   "values": [
     "sack_of_chaos:bismuth_block",
     "sack_of_chaos:block_of_raw_bismuth",
-    "sack_of_chaos:bismuth_ore",
-    "sack_of_chaos:maroonstone",
-    "sack_of_chaos:block_of_condensed_coal"
+    "sack_of_chaos:bismuth_ore"
 
   ]
 }

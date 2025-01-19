@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sack_of_chaos:polished_maroonstone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "sack_of_chaos:polished_maroonstone_stairs"
+  }
+}

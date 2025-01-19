@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "sack_of_chaos:block/cracked_polished_maroonstone_bricks"
+  }
+}

@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.plasma.sack_of_chaos.Block.ModBlocks;
+import net.plasma.sack_of_chaos.Events.CommonEvents;
 import net.plasma.sack_of_chaos.Item.ModCreativeModeTabs;
 import net.plasma.sack_of_chaos.Item.ModItems;
 import org.slf4j.Logger;
@@ -39,6 +40,8 @@ public class Sack_Of_Chaos {
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
 
+        MinecraftForge.EVENT_BUS.register(new CommonEvents());
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -48,7 +51,6 @@ public class Sack_Of_Chaos {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-
         }
 
     }
@@ -64,7 +66,6 @@ public class Sack_Of_Chaos {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
         }
     }
 }

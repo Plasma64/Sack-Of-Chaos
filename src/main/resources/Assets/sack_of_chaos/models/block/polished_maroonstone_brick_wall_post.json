@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "sack_of_chaos:block/polished_maroonstone_bricks"
+  }
+}

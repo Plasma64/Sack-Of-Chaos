@@ -1,9 +1,17 @@
 {
   "item.sack_of_chaos.bismuth_ingot": "Bismuth Ingot",
   "item.sack_of_chaos.raw_bismuth": "Raw Bismuth",
-  "item.sack_of_chaos.dashroom": "Dashroom",
+  "item.sack_of_chaos.prisma_alloy": "Prisma Alloy",
+  "item.sack_of_chaos.dashcap": "Dashcap",
+  "item.sack_of_chaos.blushcap": "Blushcap",
+  "item.sack_of_chaos.prisma_alloy_hammer": "Prisma Alloy Hammer",
+  "item.sack_of_chaos.prisma_alloy_pickaxe": "Prisma Alloy Pickaxe",
+  "item.sack_of_chaos.prisma_alloy_axe": "Prisma Alloy Axe",
+  "item.sack_of_chaos.prisma_alloy_shovel": "Prisma Alloy Shovel",
+  "item.sack_of_chaos.prisma_alloy_hoe": "Prisma Alloy Hoe",
 
   "item.sack_of_chaos.sack_of_chaos_tab_icon": "Mod Tab Icon",
+  "tooltip.sack_of_chaos.lemon.tooltip": "Warning: 1/10 Are Lemons Are Combustible!",
 
   "item.sack_of_chaos.testfood": "Testfood",
   "item.sack_of_chaos.lemon": "Lemon",
@@ -14,7 +22,22 @@
   "block.sack_of_chaos.bismuth_block": "Bismuth Block",
   "block.sack_of_chaos.bismuth_ore": "Bismuth Ore",
   "block.sack_of_chaos.maroonstone": "Maroonstone",
+  "block.sack_of_chaos.maroonstone_slab": "Maroonstone Slab",
+  "block.sack_of_chaos.maroonstone_stairs": "Maroonstone Stairs",
+  "block.sack_of_chaos.maroonstone_wall": "Maroonstone Wall",
+  "block.sack_of_chaos.polished_maroonstone": "Polished Maroonstone",
+  "block.sack_of_chaos.polished_maroonstone_bricks": "Polished Maroonstone Bricks",
+  "block.sack_of_chaos.polished_maroonstone_brick_slab": "Polished Maroonstone Brick Slab ",
+  "block.sack_of_chaos.polished_maroonstone_brick_stairs": "Polished Maroonstone Brick Stairs",
+  "block.sack_of_chaos.polished_maroonstone_brick_wall": "Polished Maroonstone Brick Wall",
+  "block.sack_of_chaos.cracked_polished_maroonstone_bricks": "Cracked Polished Maroonstone Bricks",
+  "block.sack_of_chaos.polished_maroonstone_slab": "Polished Maroonstone Slab",
+  "block.sack_of_chaos.polished_maroonstone_stairs": "Polished Maroonstone Stairs",
+  "block.sack_of_chaos.polished_maroonstone_wall": "Polished Maroonstone Wall",
+  "block.sack_of_chaos.polished_maroonstone_button": "Polished Maroonstone Button",
+  "block.sack_of_chaos.polished_maroonstone_pressure_plate": "Polished Maroonstone Pressure Plate",
   "block.sack_of_chaos.block_of_condensed_coal": "Block of Condensed Coal",
+  "block.sack_of_chaos.echo_anchor": "Echo Anchor",
 
   "creativetab.sack_of_chaos_tab": "Sack Of Chaos"
 }

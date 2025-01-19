@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sack_of_chaos:block/maroonstone_slab"
+    },
+    "type=double": {
+      "model": "sack_of_chaos:block/maroonstone"
+    },
+    "type=top": {
+      "model": "sack_of_chaos:block/maroonstone_slab_top"
+    }
+  }
+}

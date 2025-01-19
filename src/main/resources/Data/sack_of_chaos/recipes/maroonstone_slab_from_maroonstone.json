@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sack_of_chaos:maroonstone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "sack_of_chaos:maroonstone_slab"
+  }
+}

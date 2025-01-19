@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 300,
+  "cookingtime": 200,
   "experience": 1,
   "group": "bismuth_ingot",
   "ingredient": {

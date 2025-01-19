@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "sack_of_chaos:block/polished_maroonstone_bricks",
+    "side": "sack_of_chaos:block/polished_maroonstone_bricks",
+    "top": "sack_of_chaos:block/polished_maroonstone_bricks"
+  }
+}

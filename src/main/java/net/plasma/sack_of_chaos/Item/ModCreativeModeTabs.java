@@ -20,7 +20,10 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RAW_BISMUTH.get());
                         pOutput.accept(ModItems.BISMUTH_INGOT.get());
-                        pOutput.accept(ModItems.DASHROOM.get());
+
+                        pOutput.accept(ModItems.DASHCAP.get());
+                        pOutput.accept(ModItems.BLUSHCAP.get());
+                        pOutput.accept(ModItems.PRISMA_ALLOY.get());
 
                         pOutput.accept(ModItems.LEMON.get());
                         pOutput.accept(ModItems.ORANGE.get());
@@ -30,8 +33,31 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.BISMUTH_BLOCK.get());
                         pOutput.accept(ModBlocks.BISMUTH_ORE.get());
 
+                        pOutput.accept(ModBlocks.ECHO_ANCHOR.get());
+
                         pOutput.accept(ModBlocks.MAROONSTONE.get());
+                        pOutput.accept(ModBlocks.MAROONSTONE_SLAB.get());
+                        pOutput.accept(ModBlocks.MAROONSTONE_STAIRS.get());
+                        pOutput.accept(ModBlocks.MAROONSTONE_WALL.get());
+                        pOutput.accept(ModBlocks.POLISHED_MAROONSTONE.get());
+                        pOutput.accept(ModBlocks.POLISHED_MAROONSTONE_BRICKS.get());
+                        pOutput.accept(ModBlocks.CRACKED_POLISHED_MAROONSTONE_BRICKS.get());
+                        pOutput.accept(ModBlocks.POLISHED_MAROONSTONE_BRICK_SLAB.get());
+                        pOutput.accept(ModBlocks.POLISHED_MAROONSTONE_BRICK_STAIRS.get());
+                        pOutput.accept(ModBlocks.POLISHED_MAROONSTONE_BRICK_WALL.get());
+                        pOutput.accept(ModBlocks.POLISHED_MAROONSTONE_SLAB.get());
+                        pOutput.accept(ModBlocks.POLISHED_MAROONSTONE_STAIRS.get());
+                        pOutput.accept(ModBlocks.POLISHED_MAROONSTONE_WALL.get());
+                        pOutput.accept(ModBlocks.POLISHED_MAROONSTONE_BUTTON.get());
+                        pOutput.accept(ModBlocks.POLISHED_MAROONSTONE_PRESSURE_PLATE.get());
+
                         pOutput.accept(ModBlocks.BLOCK_OF_CONDENSED_COAL.get());
+
+                        pOutput.accept(ModItems.PRISMA_ALLOY_HAMMER.get());
+                        pOutput.accept(ModItems.PRISMA_ALLOY_PICKAXE.get());
+                        pOutput.accept(ModItems.PRISMA_ALLOY_AXE.get());
+                        pOutput.accept(ModItems.PRISMA_ALLOY_SHOVEL.get());
+                        pOutput.accept(ModItems.PRISMA_ALLOY_HOE.get());
 
                     })
                     .build());

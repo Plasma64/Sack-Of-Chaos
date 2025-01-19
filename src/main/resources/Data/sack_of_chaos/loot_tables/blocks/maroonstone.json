@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sack_of_chaos:maroonstone_item"
+          "name": "sack_of_chaos:maroonstone"
         }
       ],
       "rolls": 1.0

@@ -12,8 +12,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Shade_Berry extends Item {
-    private static final int COOLDOWN_TICKS = 160;
-    private static final int EFFECT_CHECK_DURATION_TICKS = 60; // 3 seconds in game Ticks
+    private static final int COOLDOWN_TICKS = 200;
+    private static final int EFFECT_CHECK_DURATION_TICKS = 100; // 5 seconds in game Ticks
     private final Map<Player, Long> cooldownEndTimes = new HashMap<>();
 
     public Shade_Berry(Properties pProperties) {
@@ -29,12 +29,11 @@ public class Shade_Berry extends Item {
                 long cooldownEndTime = cooldownEndTimes.get(player);
 
                 if (currentTime < cooldownEndTime + EFFECT_CHECK_DURATION_TICKS) {
-                    player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 120, 2));
-                    player.addEffect(new MobEffectInstance(MobEffects.HARM, 120, 0));
+                    player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 160, 3));
+                    player.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 160, 1));
                 }
             }
 
-            // Set the cooldown and update the end time
             player.getCooldowns().addCooldown(this, COOLDOWN_TICKS);
             cooldownEndTimes.put(player, currentTime + COOLDOWN_TICKS);
         }
